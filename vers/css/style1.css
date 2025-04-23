@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*,*::before,*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --blue: #42B2FC;
+  --cerii: #dcdcdc;
+}
+.logo {
+  width: 85;
+    height: 82;
+}
+input::placeholder {
+  color: #dbcccc;
+}
+
+input {
+  outline: auto;
+  border: 1px;
+  border-radius: 14px;
+  margin-bottom: 40px;
+  width: 400px;
+  height: 48px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  outline-color: var(--cerii);
+  font-family: "Jura", sans-serif;
+  outline-width: 1cm;
+}
+
+

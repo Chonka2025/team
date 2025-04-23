@@ -1,0 +1,112 @@
+html{
+  box-sizing: border-box;
+ }
+ *, *::before, *::after{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+ }
+ :root{
+  --white: #fff;
+  --black: #000;
+  --blue: #42B2FC;
+  --cerii: #dcdcdc;
+ }
+.header {
+  width: 163px;
+  height: 82px;
+}
+.header__title {
+  display: flex;
+  color: var(--blue);
+  margin-bottom: 184px;
+  padding-top: 30px;
+  padding-left: 80px;
+  align-items: flex-end;
+  font-family: "Jura", sans-serif;
+}
+
+.f{
+  text-decoration: none;
+  color: var(--blue);
+  margin: 4px -8px;
+  height: 25px;
+  width: 86px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.logo {
+  width: 85;
+  height: 82;
+}
+
+.h1 {
+  height: 76px;
+  font-size: 64px;
+  width: 425px;
+  display: flex;
+  margin-bottom: 70px;
+  font-weight: 700;
+  font-family: "Jura", sans-serif;
+}
+.boxx {
+  width: 400px;
+  height: 330px;
+  margin-left: px;
+}
+.box1 {
+  width: 425px;
+  height: 476px;
+  padding-left: 747px;
+}
+input{
+  outline: auto;
+  border-radius: 14px;
+  width: 400px;
+  height: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  outline-color: #DAE0E5;
+  font-family: "Jura", sans-serif;
+  outline-width:1cm ;
+  margin-left: 1px;
+}
+input::placeholder{
+  color: #9BADBF;
+}
+.voit1{
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Jura", sans-serif;
+}
+.box-items{
+  margin-left: 16px;
+  margin: 40 0;
+}
+.box {
+  width: 435px;
+  height: 386px;
+  padding-left:733px;
+}
+.boxx{
+  width: 400px;
+  height: 330px;
+  margin-left: 13px;
+}
+button {
+  cursor: pointer;
+  background-color: var(--blue);
+  width: 404px;
+  height: 65px;
+  margin-top: -3px;
+  margin-left: -1px;
+  margin: 17 165.5 17 165.5;
+  border-radius: 16px;
+  color: var(--white);
+  outline: auto;
+  font-size: 22px;
+    font-family: "Jura", sans-serif;
+    font-weight: 600;
+}
